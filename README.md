@@ -1,5 +1,5 @@
 # BooksWagonProject
-Here we are creating automating the bookswagon application in which we will be doing by step by step and also doing endtoend testing.
+Here we are going to do automating the bookswagon application in which we will be doing by step by step and also doing endtoend testing.
 First we are going to do signup into the application
 Next we are going to do login in to the application 
 And Then we are going to search for that particular book either by the author name or book name
