@@ -1,0 +1,64 @@
+{
+  "uuid": "1d0129d3-14a0-4199-8420-3a3d24af583f-tr-0-1006",
+  "historyId": "BooksWagonTestProject.Tests.InvaildTestCase",
+  "fullName": "BooksWagonTestProject.Tests.InvaildTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "InvaildTestCase"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "InvaildTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "InvaildTestCase"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "InvaildTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9ec9d6e7fc4a4be9bd9206c4afbb22e5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633509867611,
+      "stop": 1633509880354
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633509867610,
+  "stop": 1633509880361
+}

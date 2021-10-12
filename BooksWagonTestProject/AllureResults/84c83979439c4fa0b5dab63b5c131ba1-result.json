@@ -1,0 +1,67 @@
+{
+  "uuid": "3f61511e-68c1-4cd0-b40e-4b6ef32c24ba-tr-0-1006",
+  "historyId": "BooksWagonTestProject.Tests.purchasingaproduct",
+  "fullName": "BooksWagonTestProject.Tests.purchasingaproduct",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "purchasingaproduct"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "purchasingaproduct",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:61997/session/b3910b3bfb9502978c32b0a1e9db608c/element timed out after 60 seconds.\r\n  ----> System.Net.WebException : The operation has timed out.",
+    "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByName(String name)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass18_0.<Name>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BooksWagonTestProject.ActionDo.ActionDo.PlaceOrderFeature() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 171\r\n   at BooksWagonTestProject.ActionDo.ActionDo.PurchasingaProduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 194\r\n   at BooksWagonTestProject.Tests.purchasingaproduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 83\r\n--WebException\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "purchasingaproduct",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:61997/session/b3910b3bfb9502978c32b0a1e9db608c/element timed out after 60 seconds.\r\n  ----> System.Net.WebException : The operation has timed out.",
+        "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByName(String name)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass18_0.<Name>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BooksWagonTestProject.ActionDo.ActionDo.PlaceOrderFeature() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 171\r\n   at BooksWagonTestProject.ActionDo.ActionDo.PurchasingaProduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 194\r\n   at BooksWagonTestProject.Tests.purchasingaproduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 83\r\n--WebException\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "957e91a47e484fad9088b52a60d287ef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633596040072,
+      "stop": 1633596152228
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633596040071,
+  "stop": 1633596152233
+}

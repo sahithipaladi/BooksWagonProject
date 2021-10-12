@@ -1,0 +1,67 @@
+{
+  "uuid": "91149105-6c11-4146-b5ac-28a34a5cb347-tr-0-1007",
+  "historyId": "BooksWagonTestProject.Tests.InvaildTests",
+  "fullName": "BooksWagonTestProject.Tests.InvaildTests",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "InvaildTests"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "InvaildTests",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ExcelDataReader.Exceptions.HeaderException : Invalid file signature.",
+    "trace": "   at ExcelDataReader.ExcelReaderFactory.CreateOpenXmlReader(Stream fileStream, ExcelReaderConfiguration configuration)\r\n   at BooksWagonTestProject.ActionDo.ExcelOperations.ExcelDataTable(String filename) in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ExcelOperations.cs:line 25\r\n   at BooksWagonTestProject.ActionDo.ExcelOperations.PopulateInCollection(String filename) in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ExcelOperations.cs:line 55\r\n   at BooksWagonTestProject.ActionDo.ActionDo.InVaildSearching() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 224\r\n   at BooksWagonTestProject.Tests.InvaildTests() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 93"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "InvaildTests",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "ExcelDataReader.Exceptions.HeaderException : Invalid file signature.",
+        "trace": "   at ExcelDataReader.ExcelReaderFactory.CreateOpenXmlReader(Stream fileStream, ExcelReaderConfiguration configuration)\r\n   at BooksWagonTestProject.ActionDo.ExcelOperations.ExcelDataTable(String filename) in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ExcelOperations.cs:line 25\r\n   at BooksWagonTestProject.ActionDo.ExcelOperations.PopulateInCollection(String filename) in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ExcelOperations.cs:line 55\r\n   at BooksWagonTestProject.ActionDo.ActionDo.InVaildSearching() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 224\r\n   at BooksWagonTestProject.Tests.InvaildTests() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 93"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bf33b7384708432e9bcf33d54bfaa4c9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633514091056,
+      "stop": 1633514100026
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633514091054,
+  "stop": 1633514100042
+}

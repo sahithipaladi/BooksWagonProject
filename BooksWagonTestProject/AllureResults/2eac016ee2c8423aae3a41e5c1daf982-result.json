@@ -1,0 +1,67 @@
+{
+  "uuid": "2a7acf4f-ebfc-4f00-ac27-716e32f5536c-tr-0-1006",
+  "historyId": "BooksWagonTestProject.Tests.purchasingaproduct",
+  "fullName": "BooksWagonTestProject.Tests.purchasingaproduct",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "purchasingaproduct"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "purchasingaproduct",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetException : Non-static method requires a target.",
+    "trace": "   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BooksWagonTestProject.ActionDo.ActionDo.PurchasingaProduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 193\r\n   at BooksWagonTestProject.Tests.purchasingaproduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 83"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "purchasingaproduct",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Reflection.TargetException : Non-static method requires a target.",
+        "trace": "   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)\r\n   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BooksWagonTestProject.ActionDo.ActionDo.PurchasingaProduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 193\r\n   at BooksWagonTestProject.Tests.purchasingaproduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 83"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "483333a399c54038bb6f04432b68d355-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633587781598,
+      "stop": 1633587821899
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633587781597,
+  "stop": 1633587821905
+}

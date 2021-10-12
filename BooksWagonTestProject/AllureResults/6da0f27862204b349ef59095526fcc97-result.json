@@ -1,0 +1,67 @@
+{
+  "uuid": "200811bf-b2f1-4dfc-84d9-89349b090a9b-tr-0-1001",
+  "historyId": "BooksWagonTestProject.Tests.SignUpIntoBookswagon",
+  "fullName": "BooksWagonTestProject.Tests.SignUpIntoBookswagon",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignUpIntoBookswagon"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "SignUpIntoBookswagon",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+    "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.SignUpToBooksWagon(IWebDriver driver) in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 59\r\n   at BooksWagonTestProject.Tests.SignUpIntoBookswagon() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 24"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "SignUpIntoBookswagon",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+        "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.SignUpToBooksWagon(IWebDriver driver) in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 59\r\n   at BooksWagonTestProject.Tests.SignUpIntoBookswagon() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 24"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8f647464181f4e6d94432b0e297ed501-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633603515632,
+      "stop": 1633603587418
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633603515631,
+  "stop": 1633603587432
+}

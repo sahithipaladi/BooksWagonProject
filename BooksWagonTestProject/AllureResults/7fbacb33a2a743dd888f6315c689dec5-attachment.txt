@@ -1,0 +1,3 @@
+2021-10-07 14:48:23,551 INFO Entering Setup
+2021-10-07 14:48:30,319 DEBUG navigating to url
+2021-10-07 14:48:30,320 INFO Exiting setup

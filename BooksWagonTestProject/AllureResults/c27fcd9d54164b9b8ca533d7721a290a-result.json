@@ -1,0 +1,67 @@
+{
+  "uuid": "20cce160-b8b1-4e1e-8934-e7040dd8a44b-tr-0-1009",
+  "historyId": "BooksWagonTestProject.Tests.Invalidsignup",
+  "fullName": "BooksWagonTestProject.Tests.Invalidsignup",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Invalidsignup"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "Invalidsignup",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 39 but was 0. Strings differ at index 0.\r\n  Expected: \"Please enter correct Email or Password.\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n",
+    "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.InVaildSignUp() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 313\r\n   at BooksWagonTestProject.Tests.Invalidsignup() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 112\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Invalidsignup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 39 but was 0. Strings differ at index 0.\r\n  Expected: \"Please enter correct Email or Password.\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n",
+        "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.InVaildSignUp() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 313\r\n   at BooksWagonTestProject.Tests.Invalidsignup() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 112\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "07aa471e00694b60b80ec8e9bf26e6c5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633588323893,
+      "stop": 1633588342980
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633588323892,
+  "stop": 1633588342993
+}

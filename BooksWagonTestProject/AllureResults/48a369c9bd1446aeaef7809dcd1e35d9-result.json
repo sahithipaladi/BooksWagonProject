@@ -1,0 +1,67 @@
+{
+  "uuid": "78179de0-1128-4090-8fd7-17a10b66ec56-tr-0-1005",
+  "historyId": "BooksWagonTestProject.Tests.PlaceOrder",
+  "fullName": "BooksWagonTestProject.Tests.PlaceOrder",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PlaceOrder"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "PlaceOrder",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+    "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.PlaceOrderFeature() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 175\r\n   at BooksWagonTestProject.Tests.PlaceOrder() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 74"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PlaceOrder",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+        "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.PlaceOrderFeature() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 175\r\n   at BooksWagonTestProject.Tests.PlaceOrder() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 74"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e20fb9841e284e97b877d46f2c89ed35-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633516736492,
+      "stop": 1633516786758
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633516736491,
+  "stop": 1633516786766
+}

@@ -1,0 +1,67 @@
+{
+  "uuid": "12aaccc3-c6df-4d5d-b6d9-edd7f85c8c21-tr-0-1004",
+  "historyId": "BooksWagonTestProject.Tests.WishlistAdding",
+  "fullName": "BooksWagonTestProject.Tests.WishlistAdding",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "WishlistAdding"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "WishlistAdding",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+    "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.AddingIntoWishlist(IWebDriver driver) in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 151\r\n   at BooksWagonTestProject.Tests.WishlistAdding() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 69"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "WishlistAdding",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+        "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.AddingIntoWishlist(IWebDriver driver) in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 151\r\n   at BooksWagonTestProject.Tests.WishlistAdding() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 69"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9544100eaa7a4660a3324b8de332b824-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633507179613,
+      "stop": 1633507213764
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633507179612,
+  "stop": 1633507213773
+}

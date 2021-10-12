@@ -1,0 +1,64 @@
+{
+  "uuid": "f25fac09-08e2-4709-8450-f20f48ed40be-tr-0-1004",
+  "historyId": "BooksWagonTestProject.Tests.WishlistAdding",
+  "fullName": "BooksWagonTestProject.Tests.WishlistAdding",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "WishlistAdding"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "WishlistAdding",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "WishlistAdding"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "WishlistAdding",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0944db45ef524224bccedadce15cc1dd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633594146835,
+      "stop": 1633594171020
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633594146833,
+  "stop": 1633594171030
+}

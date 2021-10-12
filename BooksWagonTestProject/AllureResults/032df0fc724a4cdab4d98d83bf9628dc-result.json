@@ -1,0 +1,67 @@
+{
+  "uuid": "e356529d-c20f-4428-98f4-bab68ae8193b-tr-0-1006",
+  "historyId": "BooksWagonTestProject.Tests.purchasingaproduct",
+  "fullName": "BooksWagonTestProject.Tests.purchasingaproduct",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "purchasingaproduct"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "purchasingaproduct",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+    "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.PlaceOrderFeature() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 176\r\n   at BooksWagonTestProject.ActionDo.ActionDo.PurchasingaProduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 190\r\n   at BooksWagonTestProject.Tests.purchasingaproduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 83"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "purchasingaproduct",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+        "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.PlaceOrderFeature() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 176\r\n   at BooksWagonTestProject.ActionDo.ActionDo.PurchasingaProduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 190\r\n   at BooksWagonTestProject.Tests.purchasingaproduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 83"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "12b2ceb14d6f4982bd8fa5a1f47c9238-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633586385313,
+      "stop": 1633586437907
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633586385312,
+  "stop": 1633586437913
+}

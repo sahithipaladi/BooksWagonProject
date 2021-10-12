@@ -1,0 +1,96 @@
+{
+  "uuid": "470d623a-1188-457a-8977-373efb94d2cf-tr-0-1003",
+  "historyId": "BooksWagonTestProject.Tests.SearchinganItem",
+  "fullName": "BooksWagonTestProject.Tests.SearchinganItem",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchinganItem"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "User"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "SearchinganItem",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SearchinganItem"
+  },
+  "stage": "finished",
+  "description": "login\n",
+  "steps": [
+    {
+      "name": "SearchinganItem",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "71381223feb24ba39a9b6a5ec901c6de-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633593419055,
+      "stop": 1633593433320
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633593419053,
+  "stop": 1633593433334
+}

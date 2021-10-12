@@ -1,0 +1,48 @@
+{
+  "uuid": "dcd0e720-66e3-40ae-a92e-c28e9a019119-tc-0-1000",
+  "name": "BooksWagonTestProject.Tests.PlaceOrder",
+  "children": [
+    "d496f5a7-d830-4298-907d-24e63dabfb8c-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagonTestProject.CustomException : Chrome session is not estbalished\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at BooksWagonTestProject.Base.BaseClass.Setup() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\Base\\BaseClass.cs:line 53\r\n--TearDown\r\n   at BooksWagonTestProject.Base.BaseClass.TearDown() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\Base\\BaseClass.cs:line 70"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633593062009,
+      "stop": 1633593062009
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagonTestProject.CustomException : Chrome session is not estbalished\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at BooksWagonTestProject.Base.BaseClass.Setup() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\Base\\BaseClass.cs:line 53\r\n--TearDown\r\n   at BooksWagonTestProject.Base.BaseClass.TearDown() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\Base\\BaseClass.cs:line 70"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633593062012,
+      "stop": 1633593062012
+    }
+  ],
+  "links": [],
+  "start": 1633593058684,
+  "stop": 1633593062110
+}

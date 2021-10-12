@@ -1,0 +1,44 @@
+{
+  "uuid": "32f280ce-8d96-4f05-a9fd-7bebf8b8dda2-tc-0-1000",
+  "name": "BooksWagonTestProject.Tests.PlaceOrder",
+  "children": [
+    "78179de0-1128-4090-8fd7-17a10b66ec56-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633516786738,
+      "stop": 1633516786738
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633516786738,
+      "stop": 1633516786738
+    }
+  ],
+  "links": [],
+  "start": 1633516736477,
+  "stop": 1633516786819
+}

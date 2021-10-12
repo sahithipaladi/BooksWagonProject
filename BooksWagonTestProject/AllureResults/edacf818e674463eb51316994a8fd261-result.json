@@ -1,0 +1,64 @@
+{
+  "uuid": "4350cbbb-db25-4db2-ac39-8a5c0ca983ea-tr-0-1001",
+  "historyId": "BooksWagonTestProject.Tests.SignUpIntoBookswagon",
+  "fullName": "BooksWagonTestProject.Tests.SignUpIntoBookswagon",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignUpIntoBookswagon"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "SignUpIntoBookswagon",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SignUpIntoBookswagon"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "SignUpIntoBookswagon",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "418044949c664b2da05d58db187a66a8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633603619910,
+      "stop": 1633603638183
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633603619908,
+  "stop": 1633603638191
+}

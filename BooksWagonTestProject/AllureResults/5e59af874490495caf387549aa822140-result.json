@@ -1,0 +1,67 @@
+{
+  "uuid": "fe8869a6-bd80-44f9-8b60-91bfce374023-tr-0-1006",
+  "historyId": "BooksWagonTestProject.Tests.purchasingaproduct",
+  "fullName": "BooksWagonTestProject.Tests.purchasingaproduct",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "purchasingaproduct"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    }
+  ],
+  "links": [],
+  "name": "purchasingaproduct",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+    "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.PurchasingaProduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 226\r\n   at BooksWagonTestProject.Tests.purchasingaproduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 83"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "purchasingaproduct",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagonTestProject.CustomException : Element is not found in the application",
+        "trace": "   at BooksWagonTestProject.ActionDo.ActionDo.PurchasingaProduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\ActionDo\\ActionDo.cs:line 226\r\n   at BooksWagonTestProject.Tests.purchasingaproduct() in C:\\Users\\sahithi.p\\source\\repos\\BooksWagonTestProject\\BooksWagonTestProject\\BooksWagonTest.cs:line 83"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ff144133f4ed4b6e860efa8a55e3bbf1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633585818956,
+      "stop": 1633585839325
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633585818955,
+  "stop": 1633585839338
+}

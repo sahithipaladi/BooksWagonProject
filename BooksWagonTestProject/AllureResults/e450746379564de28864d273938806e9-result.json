@@ -1,0 +1,96 @@
+{
+  "uuid": "67c1fefc-621b-47bd-8c6e-cd3755945ce7-tr-0-1002",
+  "historyId": "BooksWagonTestProject.Tests.LoginIntoBooksWagon",
+  "fullName": "BooksWagonTestProject.Tests.LoginIntoBooksWagon",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT001"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginIntoBooksWagon"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagonTestProject.Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "User"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "LoginIntoBooksWagon",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginIntoBooksWagon"
+  },
+  "stage": "finished",
+  "description": "login\n",
+  "steps": [
+    {
+      "name": "LoginIntoBooksWagon",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5606d7bc6b3d4296af779e8134487fdd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633593388887,
+      "stop": 1633593407088
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633593388885,
+  "stop": 1633593407102
+}
